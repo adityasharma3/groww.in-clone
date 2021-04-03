@@ -6,13 +6,17 @@ body {
     margin: 1% 20% 0px 20%;
 }
 
+hr {
+    background-color: whitesmoke;
+    outline: none;
+}
+
 header nav {
     display: flex;
 }
 
 header nav img {
     width:150px;
-    
 }
 
 header nav a {
@@ -28,10 +32,29 @@ header nav a:hover{
 
 header nav #nav-search {
     margin-left: 20%;
-    border: 1px solid #9E9B9B;
-    box-shadow: 1px solid grey;
+    border: 1px solid #00D0A9;
     width: 32%;
-    outline: none;
+    outline: #00D0A9;
+    border-radius: 25px;
+}
+
+header nav #nav-search:hover {
+    background-color: #00D0A9;
+    transition: .2s ease;
+}
+
+header nav .search-btn {
+    margin : 0.7% 0 0 2%;
+}
+
+header nav .search-btn img {
+    height: 70%;
+    width: 70%;
+}
+
+header nav .search-btn :hover {
+    opacity: 0.7;
+    transition: 0.2s ease;
 }
 
 header nav #login-btn {
@@ -42,15 +65,17 @@ header nav #login-btn {
     margin-left: 5%;
     font-size: 18px;
     border-radius: 5px;
+    outline: none;
+}
+
+header nav #login-btn:hover {
+    opacity: 0.6;
+    transition: 0.2s ease;
 }
 
 .top-container {
     display: flex;
 }
-
-/* .top-container .left-container {
-
-} */
 
 .top-container .animated-text {
     position: absolute;
@@ -58,55 +83,28 @@ header nav #login-btn {
     overflow: hidden;
 }
 
-.top-container .animated-text .line {
-    text-transform: none;
-    /* line-height: 100%; */
-}
-
-.line:first-child {
-    animation: anim 12s infinite;
-}
-
-/* @keyframes anim {
-    0% {
-        margin-top : 0;
-    }
-    16% {
-        margin-top : -60px;
-    }
-    33% {
-        margin-top : -120px;
-    }
-   50 % {
-        margin-top : -180px;
-    }
-    66% {
-        margin-top : -120px;
-    }
-    82% {
-        margin-top : -60px;
-    }
-    100% {
-        margin-top : 0;
-    }
-} */
-
 .top-container .left-container h1 {
     padding-top: 100%;
 }
 
 .top-container .left-container #get-started-btn {
-    /* width: 60%; */
     padding: 15px;
     color: white;
     background-color: #00D0A9;
     font-size: 18px;
     border: 0px;
     border-radius: 5px;
+    outline: none;
+}
+
+.top-container .left-container #get-started-btn:hover {
+    opacity: 0.6;
+    transition: 0.2s ease;
+    outline: none;
 }
 
 .top-container .right-container {
-    padding-left: 25%;
+    padding-left: 20%;
     padding-top: 15%;
     display: flex;
 }
@@ -181,13 +179,24 @@ header nav #login-btn {
     display: flex;
 }
 
-
-
 .tab-content .right-text-panel {
     float: right;
     width: 50%;
     margin-top:5%;    
     text-align: center;
+}
+
+.tab-content a {
+    text-decoration: none;
+    background-color: #00D0A9;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.tab-content a:hover {
+    opacity: 0.7;
+    transition: .2s ease;
+    font-size: medium;
 }
 
 .right-text-panel .line1::first-line {
@@ -274,8 +283,50 @@ article .article-container img {
     transition: 0.2s ease;
 }
 
+article #all-articles-btn {
+    text-align: center;
+    text-decoration: none;
+    color: #00D0A9;
+    font-size: large;
+}
+
+article #all-articles-btn:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.review-section-container .review-showcase {
+    margin-top: 5%;
+    display: flex;
+    margin-right: 3%;
+}
+
+.review-section-container .review-showcase .review {
+    border-radius: 20px;
+}
+
+.review-section-container .review-showcase .review img {
+    margin-left: 40%;
+    width: 20%;
+    padding: 2%;
+}
+
+.review-section-container .review-showcase .review .rating{
+    text-align: center;
+}
+
+.review-section-container .review-showcase .review .rating-text {
+    padding: 7%;
+}
+
+.tabs-rev {
+    
+    display: flex;
+}
+
 html , a , input , div , button , p{
-    background-color: #0D1117;
+    /* background-color: #0D1117; */
+    background-color: #1C1B29;
     color: white;
 } 
 

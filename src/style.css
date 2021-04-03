@@ -134,9 +134,9 @@ header nav #login-btn {
     width: 100px;
 }
 
-.mid-container {
+/* .mid-container {
 
-}
+} */
 
 .mid-container .product-bubble{
     background-color:#00D0A9;
@@ -181,6 +181,8 @@ header nav #login-btn {
     display: flex;
 }
 
+
+
 .tab-content .right-text-panel {
     float: right;
     width: 50%;
@@ -202,8 +204,78 @@ header nav #login-btn {
     /* margin-top:5%; */
     width: 100%;
 }
- 
+
+.tab-content-container {
+    bottom: 10%;
+    position: relative;
+    height: 350px;
+}
+
+.trust-container {
+    padding: 0;
+    margin: 0;
+    background-color: #5367FF;
+    background-image:url(../img/shield-groww.0d0cc15e.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 15%;
+    /* position: absolute; */
+}
+
+article {
+    padding-top: 5%;
+}
+
+article h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+article .article-container {
+    display: flex;
+}
+
+article .article-container a img {
+    /* width : 40%; */
+    padding-top: 15%;
+}
+
+article .article-container a {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    /* width: 30%; */
+}
+
+article .article-container figcaption {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1%;
+}
+
+article .article-container img {
+    width: 100%;
+}
+
+.article-content {
+    width: 30%;
+    padding: 3%;
+}
+
+.article-content figcaption:hover {
+    opacity: 1;
+    color: #00D0A9;
+    transition: 0.2s ease;
+}
+
+.article-content img:hover {
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
 html , a , input , div , button , p{
     background-color: #0D1117;
     color: white;
 } 
+

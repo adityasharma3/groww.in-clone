@@ -382,3 +382,14 @@ article #all-articles-btn:hover {
     width: 90%;
     height: 100%;
 }
+
+/* --------------------- resposive ---------------------------- */
+
+@media only screen and (max-width: 720px) {
+  body  {
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+}
